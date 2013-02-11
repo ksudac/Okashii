@@ -1,0 +1,65 @@
+html {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+@font-face {
+    font-family: robinson; src: url('../WillRobinson.ttf');
+}
+
+a img {
+    border: 0px;
+}
+
+body {
+    background-image:url('../img/background.png');
+    background-color:#7ABC96;
+    padding: 0;
+    height: 100%;
+    margin: 0;
+    min-width: 1150px;
+}
+
+.navigation {
+    padding: 25px 30px 25px 30px;
+    height: 50px;
+    font-family: robinson;
+    font-size: 10pt;
+    z-index: 10;
+}
+
+.navigation a {
+    color: #336699;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #cdeaee;
+}
+
+
+#working_space {
+    background: white;
+    text-align: center;
+    width: 75%;
+    min-height: 100%;
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding:0px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#content {
+    z-index:5;
+    text-align: justify;
+    background-color: white;
+    border: solid;
+    border-color: #336699;
+    border-width: 40px;
+    width: 65%;
+    padding: 30px;
+    margin-left:75px;
+    margin-right:auto;
+}

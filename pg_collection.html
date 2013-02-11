@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Okashii</title>
+<link rel="stylesheet" type="text/css" href="css/okashii_page.css" />
+<link rel="stylesheet" type="text/css" href="css/global.css" />
+<link rel="shortcut icon" href="img/okashii_icon.png" />
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/slides.min.jquery.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('#slides').slides({
+				preload: true,
+				preloadImage: 'img/loading.gif',
+				play: 5000,
+				pause: 2500,
+				hoverPause: true
+			});
+		});
+	</script>
+
+</head>
+
+<body>
+
+<div id="working_space" style="text-align:center;">
+	
+<!-- Logo -->
+	<div id="logo" style="position:relative; top:-40px; text-align:left; z-index:1;">
+		<a href="index.html"><img src="img/round_logo.png" alt="logo"/></a>
+	</div>
+
+
+	
+<!-- Navigation -->
+	<div class="navigation" style="position:relative; top:-250px; text-align:right;">
+		<a style="padding: 50px 100px 50px 100px; position:fixed; color: transparent; left:20%; top:50px; font-size: 1px;" href="index.html"> - </a>
+		<a style="padding: 17px 30px 17px 30px; color: #336699; font-size: 10pt; text-decoration:none;" onmouseover="this.style.color = '#cdeaee'" onmouseout="this.style.color = '#336699'" href="pg_collection.html"> collection </a>
+		<a style="padding: 17px 30px 17px 30px; color: #336699; font-size: 10pt; text-decoration:none;" onmouseover="this.style.color = '#cdeaee'" onmouseout="this.style.color = '#336699'" href="pg_about.html"> about </a>
+		<a style="padding: 17px 8% 17px 30px; color: #336699; font-size: 10pt; text-decoration:none;" onmouseover="this.style.color = '#cdeaee'" onmouseout="this.style.color = '#336699'" href="pg_blog.html"> blog </a>
+	</div>
+	<br />
+	
+	
+	
+
+	
+<!-- Body content -->
+	<div id="content" style="position:relative; top:-290px;text-align:center;">
+		
+	<div id="container">
+	<div id="example">
+		<div id="slides">
+			<div class="slides_container">
+				<img src="img/collection_01.png" width="501" height="301" alt="Slide 1" />
+				<img src="img/collection_02.png" width="501" height="301" alt="Slide 2" />
+				<img src="img/collection_03.png" width="501" height="301" alt="Slide 3" />			
+			</div>
+			<a href="#" class="prev"><img src="img/left-arrow.png" width="24" height="43" alt="Arrow Prev" /></a>
+			<a href="#" class="next"><img src="img/right-arrow.png" width="24" height="43" alt="Arrow Next" /></a>
+		</div>
+	</div>
+	</div>
+
+	</div>
+
+</div>
+
+</body>
+</html>

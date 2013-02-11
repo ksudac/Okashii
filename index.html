@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<title>Okashii</title>
+<link rel="stylesheet" type="text/css" href="css/okashii_home.css" />
+<link rel="shortcut icon" href="img/okashii_icon.png" />
+
+</head>
+
+
+<body style="background-image:url('img/black_and_white.png'); background-color:black;">
+<div id="content">
+<img src="img/small_round_logo.png" alt="logo" /><br /><br /><br /><br /><br /><br /><br />
+<div class="nav" style="opacity:1.0;">
+	<p><a style="font-size: 10pt;" href="pg_collection.html">collection</a></p>
+	<p><a style="font-size: 10pt;" href="pg_about.html">about</a></p>
+        <p><a style="font-size: 10pt;" href="pg_blog.html">blog</a></p><br /><br /><br /><br /><br /><br />
+</div>
+</div>
+
+<!-- The container for the background-image -->
+<img id="bg" style="display:none" />
+
+
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+<script type="text/javascript">
+<!--
+var images = ['img/back2.gif', 'img/back1.gif', 'img/back3.gif'];
+var i = 0;
+
+setInterval(function(){
+$("img#bg").fadeTo("slow", 0.4, function() {
+    $("img#bg").css("background-image",function() {
+        if (i >= images.length) {
+            i=0;
+        }
+	return 'url(' + images[i++] + ')';
+})
+.fadeTo("slow", 1);
+});
+}, 5000);
+
+-->
+</script>
+
+<script type="text/javascript">
+function preload(arrayOfImages) {
+    $(arrayOfImages).each(function(){
+        $('<img/>')[0].src = this;
+        // Alternatively you could use:
+        // (new Image()).src = this;
+    });
+}
+
+// Usage:
+
+preload([
+    'img/black_and_white.png',
+    'img/back1.gif',
+    'img/back2.gif',
+    'img/back3.gif'
+]);
+</script>
+
+</body>
+</html>

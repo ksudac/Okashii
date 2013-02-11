@@ -1,0 +1,586 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.ie7 #mini {
+	position: absolute;
+	margin-top: 7px;
+	margin-left: -40px;
+	display: block;
+}
+
+.ie7 .clear {
+	height: 1px;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background: url('../images/background-tile.png') repeat;
+	font-family: Helvetica, "Trebuchet MS", Arial, sans-serif;
+}
+
+#wallpaper_top_container {
+	background: url('../images/background-top.gif') no-repeat top center;
+	width: 100%;
+	height: 886px;
+	position: absolute;
+}
+
+.middle_container {
+	width: 900px;
+	margin: 0px auto;
+	padding: 50px 0 0 0;
+}
+
+#logo {
+	margin: 0px auto;
+	display: block;
+}
+
+#ribbon {
+	width: 100%;
+	height: 234px;
+	background: url('../images/ribbon.png') no-repeat top center;
+}
+
+#ribbon_text {
+	color: #fcf4f4;
+	font-weight: 900;
+	text-align: center;
+	font-size: 46px;
+	letter-spacing: -.04em;
+	margin-top: 43px;
+}
+
+.left {
+	float: left;
+}
+
+.one {
+	width: 219px;
+}
+
+.two {
+	width: 446px;
+}
+
+.three {
+	width: 673px;
+}
+
+.four {
+	width: 900px;
+}
+
+.clear {
+	clear: both;
+	width: 100%;
+}
+
+.margin {
+	margin-right: 8px;
+}
+
+.top_onecol_items_headline {
+	color: #fcf4f4;
+	font-size: 46px;
+	font-weight: bold;
+	letter-spacing: -.04em;
+}
+
+.top_onecol_items_copy {
+	color: #fcf4f4;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: -.01em;
+	margin-top: 2px;
+}
+
+#download {
+	color: #fcf4f4;
+	font-size: 106px;
+	font-weight: 900;
+	letter-spacing: -0.065em;
+	height:93px;	
+}
+
+#bigboy {
+	background: url('../images/bigboy-box.png') no-repeat;
+	width: 271px;
+	height: 84px;
+	color: #fcf4f4;
+	font-size: 36px;
+	font-weight: 900;
+	letter-spacing: -.04em;
+}
+
+#bigboy a {
+	color: #fcf4f4;
+	width: 180px;
+	height: 79px;
+	padding: 24px 21px;
+	margin-top: 5px;
+	display: block;
+	text-decoration: none;
+}
+
+#bigboy a:hover {
+	color: #c700df;
+}
+
+#mini {
+	background:url("../images/mini-box.png") no-repeat scroll 0 0 transparent;
+	color:#FCF4F4;
+	font-size:26px;
+	font-weight:900;
+	height:48px;
+	letter-spacing:-0.04em;
+	margin-left:681px;
+	margin-top:35px;
+	position:absolute;
+	width:271px;
+}
+
+#mini a{
+	color:#FCF4F4;
+	display:block;
+	margin-top:5px;
+	padding:10px 0 7px 63px;
+	text-decoration:none;
+	width:156px;
+}
+
+#mini a:hover {
+	color: #54df00;
+}
+
+
+#download_frame {
+	margin-top: 65px;
+}
+
+.under_downloads {
+	font-size: 18px;
+	font-weight: 900;
+	letter-spacing:-0.04em;
+	color: #FCF4F4;
+	text-align: center;
+}
+
+#nav_bar {
+	margin-top: 65px;
+	margin-bottom: 50px;
+}
+
+ul#nav_links {
+	font-size: 32px;
+	color: #FCF4F4;
+	letter-spacing:-0.02em;	
+	text-align: right;
+}
+
+#nav_links li {
+	cursor:pointer;
+}
+
+.green, .green a{
+	color: #54df00;
+}
+
+li[rel="setting-up.html"] a:hover {
+	color: #54df00;
+}
+
+.purple,
+.purple a{
+	color: #c700df;
+}
+
+.red,
+.red a {
+	color: #C00;
+}
+
+li[rel="news.html"]:hover{
+	color: #C00;
+}
+
+li[rel="features.html"]:hover {
+	color: #c700df;
+}
+
+.blue,
+.blue a {
+	color: #00dfad;
+}
+
+li[rel="more-uses.html"]:hover {
+	color: #00dfad;
+}
+
+.yellow,
+.yellow a {
+	color: #f2e400;
+}
+
+li[rel="troubleshooting.html"]:hover {
+	color: #f2e400;
+}
+
+.orange, 
+.orange a {
+	color: #f7941d;
+}
+
+li[rel="wordpress.html"]:hover{
+	color: #f7941d;
+}
+
+#setting_up, #features, #more-uses, #troubleshooting, #wordpress {
+	margin-top: 65px;
+	width: 560px;
+	margin-left: 56px;
+}
+
+.simpleSlide-slide div{
+	width: 557px;
+	height: 282px;
+	position: relative;
+}
+
+.simpleSlide-window {
+	border: 1px solid #FCF4F4;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.slideshow {
+	position: relative;
+	overflow: auto;
+}
+
+.left-button {
+	background-image:url("../images/left-arrow.png");	
+}
+
+.right-button {
+	background-image:url("../images/right-arrow.png");
+	right: 1px;
+}
+
+.left-button, .right-button {
+	cursor:pointer;
+	height:72px;
+	position:absolute;
+	width:50px;
+	display: none;
+	z-index: 9999;
+	top:50%;
+	margin-top: -36px;
+}
+
+.slide_headline {
+	color:#FCF4F4;
+	font-size:46px;
+	font-weight:bold;
+	letter-spacing:-0.04em;
+	top: 20px;
+	left: 20px;
+	position: absolute;
+}
+
+.body_headline {
+	color:#FCF4F4;
+	font-size:46px;
+	font-weight:bold;
+	letter-spacing:-0.04em;
+}
+
+.slide_number {
+	color:#FCF4F4;
+	font-size:180px;
+	font-weight:bold;
+	right:400px;
+	top:100px;
+	position:absolute;
+	text-align: right;
+}
+	
+.slide_copy {
+	color:#FCF4F4;
+	left:159px;
+	top:111px;
+	position:absolute;
+	width:375px;
+	line-height: 22px;
+}
+.simpleSlideStatus-tray {
+	margin: 5px auto;
+}
+
+code {
+	background-color: #333;
+	padding: 4px 2px 0px 2px;
+	line-height: 18px;
+}
+
+a, .slide_copy span {
+	color: #54df00;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover, .slide_copy span:hover{
+	text-decoration: underline;
+}
+
+.sidebar_white_header {
+	color: #000;
+	background-color: #FCF4F4;
+	margin-top: 70px;
+	vertical-align: text-top;
+	height:13px;
+	padding-left: 10px;
+}
+
+.spec{
+	width: 70px;
+	color: #FCF4F4;
+	font-size: 11px;
+	text-transform: uppercase;
+	line-height: 20px;
+	margin-top: 3px;
+}
+
+.spec_description {
+	color: #FCF4F4;
+	font-size: 20px;
+	line-height: 20px;
+	margin-top: 8px;
+}
+
+.spec_description span {
+	font-size: 10px;
+	line-height: 12px;
+	text-transform: uppercase;
+}
+
+.codeblock {
+	font-family: "Courier New", Courier, monospace;
+	color: #FCF4F4;
+	background-color: #333;
+	-moz-border-radius-bottomleft: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border: 1px solid #FCF4F4;
+	border-top: 5px solid #FCF4F4;
+	font-size: 14px;
+	padding: 20px;
+	display: block;
+	width: 520px;
+	overflow: auto;
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+	vertical-align:text-top;
+	height: 99%;
+}
+
+.codeblock_header {
+	margin-top: 30px;
+	font-weight: 900;
+	color: #FCF4F4;
+	font-size: 24px;
+	letter-spacing: -.04em;
+	margin-bottom: -5px;
+}
+
+.common_type {
+	float: left;
+	color: #FCF4F4;
+	line-height: 22px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#section_switches {
+	margin-top: 0px;
+	padding-bottom: 100px;
+	
+}
+
+.switch_button {
+	padding: 10px;
+	border: 1px solid #FCF4F4;
+	color: #FCF4F4;
+	font-weight: 900;
+	font-size: 24px;
+	display: inline;
+	cursor: pointer;
+}
+
+.switch_button:hover {
+	background-color: #FCF4F4;
+	color: #000000;
+}
+
+.next {
+	-moz-border-radius-topright: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	float: right;
+}
+
+.prev {
+	-moz-border-radius-topleft: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	float: left;
+}	
+
+.example-buttons {
+	cursor:pointer;
+	color: #FCF4F4;
+	font-size: 12px;
+	margin: 0px auto;
+}
+
+.example-buttons span {
+	margin-right: 10px;
+}
+
+#ad {
+	margin-top: 30px;
+	padding-bottom: 50px;
+}
+
+/**
+ *		IE7 Fixes
+ */
+ 
+.ie7 #ribbon_text {
+	padding-top: 43px;
+}
+
+.ie7 #bigboy {
+	margin-top: 7px;
+}
+
+/**
+ *		CHROME FIXES
+ */
+ 
+.chrome .top_onecol_items_headline, .chrome .top_onecol_items_copy, .safari .top_onecol_items_headline, .safari .top_onecol_items_copy {
+	letter-spacing: -.05em;
+}
+
+.chrome #bigboy, .safari #bigboy {
+	margin-top: 7px;
+	letter-spacing: -.06em;
+}
+
+.chrome #mini, .safari #mini {
+	margin-top:42px;
+}
+
+.chrome #nav_links, .safari #nav_links { 	
+	letter-spacing:-0.05em;	
+}
+
+.chrome #download, .safari #download {
+	letter-spacing: -.07em;
+}
+
+.chrome .codeblock_header,.safari .codeblock_header {
+	letter-spacing: -.06em;
+}
+
+/**
+ *		WIN FF3+ FIXES
+ */
+
+.win.ff3 #bigboy {
+	margin-top: 8px;
+}
+
+.win.ff3 #mini {
+	margin-top: 43px;
+}
+
+#debug_alert {
+	background-color: #F00;
+	position: absolute;
+	top: 0;
+	z-index: 1000;
+}
+
+#google_translate_element {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 1000;
+}
+	
